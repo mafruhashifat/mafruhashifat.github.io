@@ -28,7 +28,7 @@ google_analytics:
   id: 
 
 # Your own avatar image
-avatar: "/assets/img/my_avatar.png"
+avatar: "/assets/img/my_avatar.jpeg"
 toc: true
 
 comments:
