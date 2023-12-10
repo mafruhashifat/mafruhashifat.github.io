@@ -1,24 +1,23 @@
 ---
-title: "About"
-date: 2017-08-20T21:38:52+08:00
-lastmod: 2017-08-28T21:41:52+08:00
+title: "About Me"
+date: 2023-12-09
+lastmod: 2023-12-09
 menu: "main"
 weight: 50
-
-# you can close something for this content if you open it in config.toml.
-comment: false
-mathjax: false
 ---
 
-Hugo is a static site engine written in Go.
+# Introduction
+I am a graduate student (Master’s) and teaching assistant (first-year writing instructor) in the English department of North Dakota State University. I am also the president (Master’s) for the English Graduate Organization (EGO) during the 2023-2024 academic year. I was a writing consultant and teaching assistant (English Language and Classroom Skills for International GTAs) at the Center for Writers (Spring 2023). My research interests are rhetorics of health and medicine, technical and professional writing, rhetorics, and composition. In addition, as an international and multilingual student from Bangladesh, I work in postcolonial studies and intercultural communication
 
+## Education
+- Bachelor's Degree in Education, XYZ University, 20XX
+- Master's Degree in Teaching, ABC University, 20XX
 
-It makes use of a variety of open source projects including:
+## Teaching Experience
+- Math Teacher, XYZ High School, 20XX-present
+- Science Teacher, ABC Middle School, 20XX-20XX
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+## Contact Me
+You can reach out to me via Email: mafruha dot shifat at ndsu dot edu
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+Office: Minard 318E2

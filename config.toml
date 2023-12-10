@@ -3,12 +3,12 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "http://localhost:1313/"
-title = "Jane - A super concise theme for Hugo"
+title = "Teacher's Personal Web Page"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
 
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 3              # Number of articles displayed on the homepage  # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
@@ -21,7 +21,7 @@ defaultContentLanguage = "en"           # Default language to use
   languageCode = "en"
 
 [author]
-  name = "xianmin"        # essential                     # 必需
+  name = "Teacher"        # essential                     # 必需
   url = "/about"          # optional                      # 可选
 
 [sitemap]                 # essential                     # 必需
@@ -30,7 +30,7 @@ defaultContentLanguage = "en"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
+  name = "Home"
   weight = 10
   identifier = "home"
   pageref = "/"
@@ -50,7 +50,7 @@ defaultContentLanguage = "en"           # Default language to use
   identifier = "categories"
   pageref = "/categories/"
 [[menu.main]]
-  name = "external-link"
+  name = "External Link"
   weight = 50
   pageref = "https://gohugo.io"
 
@@ -61,9 +61,9 @@ defaultContentLanguage = "en"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "Teacher's Personal Web Page"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","jane"]
-  description = "Hugo theme jane example site."
+  description = "A personal web page for a teacher."
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"

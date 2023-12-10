@@ -1,116 +1,90 @@
+:root {
+  --darkMaincolor: #333;
+  --textColor: #ddd;
+  --linkHoverBgColor: #f0f0f0;
+  --codeBgColor: lightblue;
+  --codeTextColor: black;
+  --selectionBgColor: rgb(0, 242, 255);
+  --headerFooterBorderColor: #333;
+}
+
 body {
-  color: white;
+  color: var(--textColor);
   background-color: #0b0b0b;
 }
 
-::-moz-selection {
-  background: rgb(4, 0, 255);
-  color: #fff;
-  text-shadow: none;
-}
-
+::-moz-selection,
 ::selection {
-  background: rgb(0, 242, 255);
-  color: #fff;
+  background: var(--selectionBgColor);
+  color: white;
   text-shadow: none;
 }
 
 hr {
   border-top: 3px dotted blue;
 }
+
 code {
-  background-color: lightblue;
-  color: black;
-  text-decoration: bold;
+  background-color: var(--codeBgColor);
+  color: var(--codeTextColor);
+  font-weight: bold;
   padding: 0.1em 0.2em;
 }
+
 pre {
   background-color: #272822;
   line-height: 1.4;
   overflow-x: auto;
   padding: 1em;
 }
+
 blockquote {
   border-color: blue;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #ddd;
+h1, h2, h3, h4, h5, h6 {
+  color: var(--textColor);
 }
-h1::before {
-  color: var(--darkMaincolor);
-  content: "# ";
-}
-h2::before {
-  color: var(--darkMaincolor);
-  content: "## ";
-}
-h3::before {
-  color: var(--darkMaincolor);
-  content: "### ";
-}
-h4::before {
-  color: var(--darkMaincolor);
-  content: "#### ";
-}
-h5::before {
-  color: var(--darkMaincolor);
-  content: "##### ";
-}
-h6::before {
-  color: var(--darkMaincolor);
-  content: "###### ";
-}
+
+h1::before { content: "# "; }
+h2::before { content: "## "; }
+h3::before { content: "### "; }
+h4::before { content: "#### "; }
+h5::before { content: "##### "; }
+h6::before { content: "###### "; }
 
 a {
   border-bottom: 3px solid var(--darkMaincolor);
   color: inherit;
+  transition: background-color 0.3s;
 }
+
 a:hover {
-  background-color: var(--darkMaincolor);
+  background-color: var(--linkHoverBgColor);
   color: black;
 }
 
-.site-description a {
-  color: #ddd;
-}
-.site-description a:hover {
-  color: black;
-}
-
-.tags a {
-  border-bottom: 3px solid var(--darkMaincolor);
-}
+.site-description a:hover,
 .tags a:hover {
-  background-color: var(--darkMaincolor);
   color: black;
 }
 
 .site-title a {
   color: white;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .header nav,
 .footer {
-  border-color: #333;
+  border-color: var(--headerFooterBorderColor);
 }
 
-.highlight {
-  background-color: #333;
+.highlight pre code[class*='language-']::before {
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
 }
-.soc:hover {
-  color: black;
-}
-.draft-label {
-  color: var(--darkMaincolor);
-  background-color: blue;
-}
+
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
   content: "js";
