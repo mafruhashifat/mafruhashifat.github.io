@@ -1,6 +1,6 @@
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: rgb(0, 0, 0);
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
 --hovercolor:navy;
@@ -277,7 +277,7 @@ color: black;
 .highlight pre code[class*='language-yml']::before,
 .highlight pre code[class*='language-yaml']::before {
 content: 'yaml';
-background: #f71e6a;
+background: #faed36;
 color: white;
 }
 .highlight pre code[class*='language-shell']::before,
