@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About"
 date: 2023-12-09
 lastmod: 2023-12-09
 menu: "main"
@@ -21,5 +21,4 @@ I am a graduate student (Master’s) and teaching assistant (first-year writing 
 You can reach out to me via Email: mafruha dot shifat at ndsu dot edu
 
 Office: Minard 318E2
-
 

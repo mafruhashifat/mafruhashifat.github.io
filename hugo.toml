@@ -37,6 +37,6 @@ weight = 2
 
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "About"
+url = "/About"
 weight = 3

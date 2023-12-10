@@ -1,6 +1,8 @@
-## Modern Rhetorical Techniques
-
-In addition to the traditional rhetorical devices, modern rhetoric encompasses new techniques that are specific to the digital age.
+---
+title: "Modern Rhetorical Techniques"
+date: 2023-12-09
+description: "In addition to the traditional rhetorical devices, modern rhetoric encompasses new techniques that are specific to the digital age."
+---
 
 - Social Media Engagement: Utilizing social media platforms to engage with the audience, spark conversations, and build a community around ideas.
 - Influencer Marketing: Collaborating with influential individuals or organizations to leverage their credibility and reach a wider audience.
